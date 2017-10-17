@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5c9055c5a164ab44f9f3a3b488b91ac7
+timeCreated: 1508263764
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - rocket: {fileID: 1475310816458060, guid: 9e549054f90561a4391490a351df06c2, type: 2}
+  - lifeLabel: {instanceID: 0}
+  - scoreLabel: {instanceID: 0}
+  - gameOverLabel: {instanceID: 0}
+  - highScoreLabel: {instanceID: 0}
+  - resetBtn: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
