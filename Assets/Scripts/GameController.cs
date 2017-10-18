@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour {
 	[SerializeField]
 	Text scoreLabel;
 	[SerializeField]
-	Text gameOverLabel;
+	Image gameOverImage;
 	[SerializeField]
 	Text highScoreLabel;
 	[SerializeField]
@@ -25,9 +25,9 @@ public class GameController : MonoBehaviour {
 	private void initialize(){
 	
 		Player.Instance.Score = 0;
-		Player.Instance.Life = 3;
+		Player.Instance.Life = 5;
 
-		gameOverLabel.gameObject.SetActive (false);
+		gameOverImage.enabled = false;
 		highScoreLabel.gameObject.SetActive (false);
 		resetBtn.gameObject.SetActive (false);
 
@@ -37,7 +37,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void gameOver(){
-		gameOverLabel.gameObject.SetActive (true);
+		gameOverImage.enabled = true;
 		highScoreLabel.gameObject.SetActive (true);
 		resetBtn.gameObject.SetActive (true);
 
