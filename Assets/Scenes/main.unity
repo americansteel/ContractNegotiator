@@ -278,6 +278,65 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1 &236819601 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1091564323287456, guid: bee509d5f9d6964408ae12ca37edd114,
+    type: 2}
+  m_PrefabInternal: {fileID: 980050838}
+--- !u!60 &236819603
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 236819601}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 186, y: 160}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 68, y: -27}
+      - {x: 71, y: -24}
+      - {x: 71, y: -7}
+      - {x: 67, y: -3}
+      - {x: 52, y: 5}
+      - {x: 43, y: 9}
+      - {x: 34, y: 16}
+      - {x: 19, y: 23}
+      - {x: 7, y: 32}
+      - {x: -5, y: 37}
+      - {x: -18, y: 46}
+      - {x: -25, y: 48}
+      - {x: -30, y: 48}
+      - {x: -53, y: 36}
+      - {x: -57, y: 31}
+      - {x: -65, y: 27}
+      - {x: -71, y: 23}
+      - {x: -71, y: 7}
+      - {x: -67, y: 3}
+      - {x: -56, y: -2}
+      - {x: -47, y: -7}
+      - {x: -34, y: -17}
+      - {x: -28, y: -19}
+      - {x: -15, y: -26}
+      - {x: 22, y: -48}
+      - {x: 33, y: -48}
+      - {x: 36, y: -47}
+      - {x: 44, y: -40}
+      - {x: 51, y: -37}
+      - {x: 59, y: -32}
 --- !u!1 &601797173
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,11 +850,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4223981367562382, guid: bee509d5f9d6964408ae12ca37edd114, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 578
       objectReference: {fileID: 0}
     - target: {fileID: 4223981367562382, guid: bee509d5f9d6964408ae12ca37edd114, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 111.6
+      value: 186
       objectReference: {fileID: 0}
     - target: {fileID: 4223981367562382, guid: bee509d5f9d6964408ae12ca37edd114, type: 2}
       propertyPath: m_LocalPosition.z
@@ -826,7 +885,8 @@ Prefab:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 73bdaf6fa4a24459eb2b7e420333a198, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 58150804927100426, guid: bee509d5f9d6964408ae12ca37edd114, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: bee509d5f9d6964408ae12ca37edd114, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1447261459
@@ -966,7 +1026,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1488196941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 393, y: 332, z: 0}
+  m_LocalPosition: {x: -333, y: -10, z: 0}
   m_LocalScale: {x: 0.30331206, y: 0.30331206, z: 0.30331206}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1371,11 +1431,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4544753083146576, guid: 863239b7341c86d48a5c66de78060e72, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: 644
       objectReference: {fileID: 0}
     - target: {fileID: 4544753083146576, guid: 863239b7341c86d48a5c66de78060e72, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -48
       objectReference: {fileID: 0}
     - target: {fileID: 4544753083146576, guid: 863239b7341c86d48a5c66de78060e72, type: 2}
       propertyPath: m_LocalPosition.z

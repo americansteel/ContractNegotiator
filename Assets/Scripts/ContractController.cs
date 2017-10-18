@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿///Source File: /Assets/Scripts/ContractController.cs
+/// Author: Dylan Roberts
+/// Last Modified By: Dylan Roberts
+/// Date Last Modified: 18/10/2017
+/// Program Description: Controls the way the 'Contract' object moves within the scene
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

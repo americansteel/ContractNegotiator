@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿///Source File: /Assetts/Scripts/CashController.cs
+/// Author: Dylan Roberts
+/// Last Modified By: Dylan Roberts
+/// Date Last Modified: 18/10/2017
+/// Program Description: This controls the 'Cash' object.
+/// Determines where and how fast it moves
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
